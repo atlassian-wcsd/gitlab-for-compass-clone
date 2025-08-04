@@ -1,0 +1,59 @@
+name: gitlab-for-compass-clone
+id: ari:cloud:compass:a1fe6479-0253-4bf2-8cb9-3c7c70456ae4:component/6769ddfe-0469-47f0-8807-9e419c80f596/55cf5d33-0b2a-4a9f-951c-b6f0e8db6929
+description: Compass integration with source code management tool GitLab.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/atlassian-wcsd/gitlab-for-compass-clone
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+  - synced-with-jsm
+customFields:
+  - name: Component Versions
+    type: text
+    value: null
+  - name: Data encrypted at rest
+    type: text
+    value: null
+  - name: Data encrypted in transit
+    type: text
+    value: null
+  - name: Default assignee
+    type: user
+    value: null
+  - name: Deployment Environments
+    type: multi_select
+    value: null
+  - name: Deployment regions
+    type: multi_select
+    value: null
+  - name: Java version support
+    type: number
+    value: null
+  - name: Last security review
+    type: text
+    value: null
+  - name: New Relic Dashboard
+    type: text
+    value: null
+  - name: Version_Env
+    type: text
+    value: null
+  - name: prod us-east-1 env
+    type: text
+    value: null
+  - name: prod us-west-2 env
+    type: text
+    value: null
+  - name: staging eu-west-2 env
+    type: text
+    value: null
+  - name: test ca-central-1 env
+    type: text
+    value: null
